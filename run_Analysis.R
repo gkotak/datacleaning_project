@@ -57,7 +57,7 @@ names(data) <- c("sample_id", "activity_num", as.character(features[,2]))
 ## capitals, just since I'm making the assumption they are not relevant
 ## this could easily be done with ignore.case=TRUE parameter in the grep comment
 
-mean_std_colucmns <- grep("mean|std", names(data))
+mean_std_columns <- grep("mean|std", names(data))
 
 ## now column 1 and column are the sample ID and activity ID, so let's get those to
 relevant_columns <- c(1, 2, mean_std_columns)
