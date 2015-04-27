@@ -3,9 +3,9 @@
 ## Read the data
 
 ### First the test data
-subject_test <- read.table("test/subject_test.txt")
-X_test <- read.table("test/X_test.txt")
-y_test <- read.table("test/y_test.txt")
+subject_test <- read.table("test/subject_test.txt")  
+X_test <- read.table("test/X_test.txt")  
+y_test <- read.table("test/y_test.txt")  
 
 ### repeat the same for training data
 subject_train <- read.table("train/subject_train.txt")
